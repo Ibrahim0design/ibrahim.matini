@@ -293,4 +293,27 @@ input[type=text], input[type=submit] {
             width: 80%;
         }
 
+        .photo1 {
+            height: auto;
+            width: 80%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+
+        .behancebutto {
+            padding-left: 165px;
+            padding-right: 165px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .whatsappbutto {
+            padding-left: 165px;
+            padding-right: 165px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
 }
