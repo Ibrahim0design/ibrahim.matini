@@ -279,7 +279,7 @@ input[type=text], input[type=submit] {
         }
         
         h2 {
-            font-size: 36px;
+            font-size: 34px;
         }
 
         .icon {
@@ -303,17 +303,20 @@ input[type=text], input[type=submit] {
         }
 
         .behancebutto {
-            padding-left: 165px;
-            padding-right: 165px;
+            padding-left: 30px;
+            padding-right: 30px;
             padding-top: 20px;
             padding-bottom: 20px;
+            font-size: 18px;
         }
 
         .whatsappbutto {
-            padding-left: 165px;
-            padding-right: 165px;
+            margin-top: 5px;
+            padding-left: 20px;
+            padding-right: 20px;
             padding-top: 20px;
             padding-bottom: 20px;
+            font-size: 18px;
         }
 
 }
