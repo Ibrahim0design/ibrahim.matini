@@ -266,7 +266,31 @@ input[type=text], input[type=submit] {
 
 @media only screen and (max-width: 850px) {
 
-    .contener1 {
-        width: 100%;
-    }
+        .contener1 {
+            width: 100%;
+        }
+
+        .hr1 {
+            width: 80%;
+        }
+
+        h1 {
+            font-size: 42px;
+        }
+        
+        h2 {
+            font-size: 36px;
+        }
+
+        .icon {
+            height: 55px;
+            width: 55px;
+        }
+
+        .paragraph {
+            font-size: 18px;
+            line-height: 32px;
+            width: 80%;
+        }
+
 }
