@@ -2,6 +2,25 @@ html {
     height: 100%
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #5873f8;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #869aff;
+    transition: all 1s ease 0s;
+  }
+
 body {
     background-image: url("backgroundimage2.jpg");
     background-repeat: no-repeat;
@@ -243,4 +262,11 @@ input[type=text], input[type=submit] {
 .behancebutto:hover {
     transition: 0.5s;
     background-color: #4080ff;
+}
+
+@media only screen and (max-width: 850px) {
+
+    .contener1 {
+        width: 100%;
+    }
 }
