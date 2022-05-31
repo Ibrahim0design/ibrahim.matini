@@ -74,6 +74,18 @@ body {
     margin: auto;
 }
 
+.contener404 {
+    display: flex;
+    flex-direction: column;
+    background-color: #5873f854;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+
 .profilephoto {
     height: 200px;
     width: 200px;
