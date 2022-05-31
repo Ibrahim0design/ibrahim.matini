@@ -25,11 +25,11 @@ body {
     background-image: url("backgroundimage2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0;
     /*this made my lif bette sticking the bg with screen*/
     background-attachment: fixed;
-   
- 
 }
+
 
 .bgcolor {
     position: fixed;
@@ -69,9 +69,9 @@ body {
     align-items: center;
     width: 750px;
     height: 100%;
-    top: 0;
+    margin-top: 0%;
+    top: 0%;
     margin: auto;
-    margin-top: 0;
 }
 
 .profilephoto {
