@@ -112,7 +112,7 @@ h1 {
     transition: 0.5s;
 }
 h1:hover {
-    letter-spacing: 5px;
+    letter-spacing: 2px;
 }
 
 h2 {
@@ -126,7 +126,7 @@ h2 {
     transition: 0.5s;
 }
 h2:hover {
-    letter-spacing: 5px;
+    letter-spacing: 2px;
 }
 
 h3 {
@@ -141,7 +141,7 @@ h3 {
     transition: 0.5s;
 }
 h3:hover {
-    letter-spacing: 5px;
+    letter-spacing: 2px;
 }
 
 .iconscontener {
@@ -366,8 +366,8 @@ input[type=text], input[type=submit] {
         }
 
         .behancebutto {
-            padding-left: 30px;
-            padding-right: 30px;
+            padding-left: 45px;
+            padding-right: 45px;
             padding-top: 20px;
             padding-bottom: 20px;
             font-size: 18px;
