@@ -9,7 +9,6 @@
     <link rel="icon" type="image/x-icon" href="..\images\favicon.png">
     <base href="ibrahim.matini.link" target="_blank">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="ar-style.css">
     <meta charset="UTF-8">
     <meta name="description" content="This is a personal page for a graphic designer who offers various design services and looking for remote job opportunities in the field of web development, interface design, and publications.">
     <meta name="keywords" content="مصمم غرافيك، عمل عن بعد، تصميم شعارات وهويات بصرية">
