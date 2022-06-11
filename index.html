@@ -3,7 +3,7 @@
 
 <head>
     <title>Ibrahim Matini</title>
-    <link rel="icon" type="image/x-icon" href="images\favicon .png">
+    <link rel="icon" type="image/x-icon" href="images\favicon.png">
     <base href="ibrahim.matini.link" target="_blank">
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
@@ -11,6 +11,7 @@
     <meta name="keywords" content="graphic design, graphic design is my passion, graphic design jobs">
     <meta name="author" content="Ibrahim Matini">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@800&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
@@ -21,6 +22,8 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="ibrahim.matini.link" />
     <meta property="og:image" content="images\thumbphoto.jpg" alt="social card photo" />
+    <meta property="og:image" itemprop="image" content="images\thumbphoto.jpg">
+
 
     <meta name="twitter:title" content="Ibrahim Matini">
     <meta name="twitter:description" content="graphics designer with more than 8 years of experience in digital and print design.">
@@ -40,7 +43,7 @@
     
     <div class="iconscontener">
         <a href="https://www.behance.net/ibrahimmatini111"><img src="icons\brosh.svg" class="icon" alt="brush icon"/></a>
-        <a target="_self" href="index.html"><img src="icons\home.svg" class="icon" alt="home icon"/></a>
+        <a target="_self" href="https://ibrahim.matini.link"><img src="icons\home.svg" class="icon" alt="home icon"/></a>
         <a target="_self" href="ar\home"><img src="icons\arabic.svg" class="icon" alt="arabic"/></a>
     </div>
 
@@ -60,13 +63,18 @@
 
     <hr class="hr1" >
 
+    <?php
+    include ("script.php");
+    ?>
+
     <h3>Join us!</h3>
     <p id="paragraph5" class="paragraph" >Join our audience to receive all new services, tools and courses that help you in the various fields of graphic design.</p>
-    <form action="/action_page.php">
+    
+    <div class="form">
         <input type="text" placeholder="Name" name="name" required>
         <input type="text" placeholder="Email address" name="mail" required>
         <input type="submit" value="Save">
-    </form>
+    </div>
 
     <hr class="hr1" >
 
@@ -92,13 +100,3 @@
 
 </html>
 
-<?php
-    extract($_REQUEST)
-    $file=fopen("form-save.txt","a")
-
-    fwrite($file,"name :");
-    fwrite($file, $name . "\n");
-    fwrite($file,"Email :");
-    fwrite($file, $Email . "\n");
-    fclose($file);
-?>

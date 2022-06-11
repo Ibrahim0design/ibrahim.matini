@@ -383,3 +383,23 @@ input[type=text], input[type=submit] {
         }
 
 }
+
+h1 {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+}
+
+h2 {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-weight: 200;
+}
+
+h3 {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-weight: 200;
+}
+
+.paragraph {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-weight: 200;
+    text-align: right;
+}

@@ -244,7 +244,7 @@ input[type=text], input[type=submit] {
     opacity: 0.8;
   }
 
-  form {
+  .form {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
