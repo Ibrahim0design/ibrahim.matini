@@ -65,7 +65,7 @@
     <form action="/action_page.php">
         <input type="text" placeholder="Name" name="name" required>
         <input type="text" placeholder="Email address" name="mail" required>
-        <input type="submit" value="Subscribe">
+        <input type="submit" value="Save">
     </form>
 
     <hr class="hr1" >
@@ -91,3 +91,14 @@
 </body>
 
 </html>
+
+<?php
+    extract($_REQUEST)
+    $file=fopen("form-save.txt","a")
+
+    fwrite($file,"name :");
+    fwrite($file, $name . "\n");
+    fwrite($file,"Email :");
+    fwrite($file, $Email . "\n");
+    fclose($file);
+?>
